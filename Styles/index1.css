@@ -1,0 +1,49 @@
+body{
+    background-image:url("../images/fxd.png");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100%;
+}
+#titlediv{
+    width:100%;
+    height:829px;
+}
+#internaltitlediv{
+    width:37%;
+    height:50%;
+    /*background-color:red;*/
+    margin-bottom:310px;
+    padding-top:280px;
+    margin-left:25px;
+    text-align:center;
+    font-family:"DSfont";
+    font-size:250%;
+}
+hr{
+    border:0.5px solid darkcyan;
+}
+
+@font-face {
+        font-family:"DSfont";
+        src: url(../fonts/DSfont.otf);
+        
+}
+
+
+#persondiv{
+    width:100%;
+    height:2000px;
+    background-image:url("../images/vichy.png");
+}
+#divHeader{
+    width:95%;
+    height:150px;
+    background-color:white;
+    float:right;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    text-align:center;
+    font-family:"DSfont";
+    font-size:600%;
+}
