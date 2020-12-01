@@ -1,86 +1,16 @@
 <html>
 <head>
 
+<link rel="stylesheet" href="Styles/mystyle.css">
 
-<style>
-h5{background-image:url("pl.jpg");
-    background-repeat:no-repeat;
-    background-position: right top;
-    height: 200px;
-    width: 50%;}
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-
-
-img {
-    border-radius:  50%;
-}
-body {font-family: Arial;}
-
-/* Style the tab */
-.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-    background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-    background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    -webkit-animation: fadeEffect 1s;
-    animation: fadeEffect 1s;
-}
-
-/* Fade in tabs */
-@-webkit-keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-@keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-</style>
 </head>
 <body>
 
 <h3>Elham Heydari</h3>
-
+<div class="header">
+  
+  
+</div>
 <div class="tab">
   <button class="tablinks" onclick="openTab(event, 'Profile')">Profile</button>
   <button class="tablinks" onclick="openTab(event, 'Exprience')">Exprience</button>
@@ -90,25 +20,7 @@ body {font-family: Arial;}
 
 <div id="Profile" class="tabcontent">
   <h3>Profile</h3>
-<table >
-  <tr>
-    <th>About me  </th>
-    <th rowspan="2"><img src="Images/photo.jpg" alt="my picture" width="300px" height="200px" ></th> 
-    <th>Details</th>
-  </tr>
-  <tr>
-    <td> <p>I am an English teacher.</p>
- <p>I am studying Computer Engineering at university </p></td>
-    <td></td> 
-    <td><table style="width:100%" > <tr><th>Name:</th></tr>
-<tr><td>Elham Heydari</td></tr>
-<tr><th>Age:</th></tr>
-<tr><td>23 years old</td></tr>
-<tr><th>location :</th></tr>
-<tr><td>Tehran, Iran</td></tr></table></td>
-  </tr>
 
-</table>
   
 </div>
 
@@ -118,58 +30,7 @@ body {font-family: Arial;}
 </div>
 
 <div id="Ability" class="tabcontent"  >
-<h5>
-  <table >
-  <tr>
-    <th>Ability</th>
-    <th></th> 
-  </tr>
-  <tr>
-    <td>C++</td>
-    <td>70%</td>
-  </tr>
-  <tr>
-    <td>ICDL</td>
-    <td>100%</td> 
-  </tr>
-  <tr>
-    <td>Python</td>
-    <td>60%</td> 
-  </tr>
-  <tr>
-    <td>Html</td>
-    <td>70%</td>
-  </tr>
-  <tr>
-    <td>CSS</td>
-    <td>70%</td> 
-  </tr>
-  <tr>
-    <td>Java Script</td>
-    <td>40%</td> 
-  </tr>
-  <tr>
-    <td>matlab</td>
-    <td>80%</td>
-  </tr>
-  <tr>
-   <td>cisco packet tracer</td>
-    <td>80%</td> 
-  </tr>
-  <tr>
-    <td>Xilinx ISE</td>
-    <td>70%</td>
-  </tr>
-  <tr>
-    <td>SQL</td>
-    <td>50%</td> 
-  </tr>
-  <tr>
-    <td>English</td>
-    <td>80%</td> 
-  </tr>
-</table>
- </h5> 
+ 
 </div>
 <div id="Contact" class="tabcontent">
   <h3>Contact me</h3>
