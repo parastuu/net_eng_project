@@ -38,13 +38,77 @@ hr{
     background-image:url("../images/vichy.png");
 }
 #divHeader{
-    width:95%;
+    width:calc(100% - 80px);
     height:150px;
     background-color:white;
-    float:right;
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:40px;
+    margin-top:30px;
+    text-align:center;
+    font-family:"DSfont";
+    font-size:600%;
+}
+#parastoo{
+    width:670px;
+    height:640px;
+    background-color:white;
+    margin-left:40;
     margin-top:20px;
+    float:left;
+}
+#elham{
+    width:670px;
+    height:640px;
+    background-color:white;
+    margin-right:40px;
+    margin-top:20px;
+    float:right;
+}
+#parastooPictureDiv{
+    margin-top:15px;
+    width:670;
+    height:300;
+    /*background-color:blue;*/
+    background-image:url("../Images/pic-parastooc.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    
+}
+#elhamPictureDiv{
+    margin-top:15px;
+    width:670;
+    height:300;
+    /*background-color:blue;*/
+    background-image:url("../Images/pic-elhamc.png");
+    background-repeat:no-repeat;
+    background-position:center;
+}
+#parstooInfoDiv{
+    width:600;
+    height:260px;
+    background-color:red;
+    margin-top:20;
+    margin-left:35px;
+    text-align:center;
+    font-family:"DSfont";
+    font-size:200%;
+}
+#elhamInfoDiv{
+    width:600;
+    height:260px;
+    background-color:red;
+    margin-top:20;
+    margin-left:35px;
+    text-align:center;
+    font-family:"DSfont";
+    font-size:200%;
+    
+}
+#footer{
+    width:calc(100% - 80px);
+    height:150px;
+    background-color:green;
+    margin-left:40px;
+    margin-top:30px;
     text-align:center;
     font-family:"DSfont";
     font-size:600%;
