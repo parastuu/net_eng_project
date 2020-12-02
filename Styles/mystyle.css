@@ -1,8 +1,8 @@
 ﻿@keyframes animation {
 	0%   {left:0px; top:0px;}
-	25%  {left:300px; top:20px;}
+	25%  {left:300px; top:50px;}
 	50% {left:300px; top:0px;}
-	75% {left:300px; top:20px;}
+	75% {left:300px; top:50px;}
 	100% {left:0px; top:0px;}
 	}
 
@@ -10,8 +10,6 @@ img {
     border-radius:  50%;
 }
 .header {
-  padding: 200px;
-  margin: 20px;
   position: relative;
   animation-name: animation;
   animation-duration: 3s;
