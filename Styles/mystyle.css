@@ -1,19 +1,22 @@
-﻿@keyframes aa {
-  0%   {left:0px; top:0px;}
-  25%  {left:300px; top:0px;}
-   100% {left:0px; top:0px;}
-}
+﻿@keyframes animation {
+	0%   {left:0px; top:0px;}
+	25%  {left:300px; top:20px;}
+	50% {left:300px; top:0px;}
+	75% {left:300px; top:20px;}
+	100% {left:0px; top:0px;}
+	}
 img {
     border-radius:  50%;
 }
 
 .header {
-     padding: 200px;
-      margin: 20px;
+  padding: 200px;
+  margin: 20px;
   position: relative;
-  animation-name: aa;
+  animation-name: animation;
   animation-duration: 3s;
   animation-direction: reverse;
+animation-iteration-count: 2;
 }
 
 .fa {
