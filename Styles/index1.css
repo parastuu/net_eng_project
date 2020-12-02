@@ -31,6 +31,8 @@ hr{
 
 
 #persondiv{
+    position:absolute;
+    left:0;
     width:100%;
     height:2000px;
     background-image:url("../images/vichy.png");
