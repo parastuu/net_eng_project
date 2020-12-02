@@ -1,14 +1,19 @@
-﻿
+﻿@keyframes aa {
+  0%   {left:0px; top:0px;}
+  25%  {left:300px; top:0px;}
+   100% {left:0px; top:0px;}
+}
 img {
     border-radius:  50%;
 }
 
 .header {
-      padding: 200px;
+     padding: 200px;
       margin: 20px;
-
-
-background-color: yellow;
+  position: relative;
+  animation-name: aa;
+  animation-duration: 3s;
+  animation-direction: reverse;
 }
 
 .fa {
