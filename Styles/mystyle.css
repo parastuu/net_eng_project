@@ -1,4 +1,4 @@
-﻿@keyframes animation {
+@keyframes animation {
 	0%   {left:0px; top:0px;}
 	25%  {left:300px; top:50px;}
 	50% {left:300px; top:0px;}
@@ -31,7 +31,9 @@ img {
     opacity: 0.7;
 }
 
-body {font-family: Arial;}
+body {
+    font-family: Arial;
+}
 
 /* Style the tab */
 .tab {
@@ -41,10 +43,132 @@ body {font-family: Arial;}
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: yellow;
+  background-color: red;
   overflow-x: hidden;
   padding-top: 20px;
 }
+
+#bgimg{
+    background-image:url("../Images/vichy.png");
+    height:1500px;
+}
+#animpic{
+    height:300;
+    background-image:url("../Images/pic-parastooc.png");
+    background-repeat:no-repeat;
+    padding-top:50px;
+    background-position:center;
+}
+#rightmenudiv{
+    margin-top:0px;
+    float:right;
+    right:35;
+    position:fixed;
+}
+
+ul {
+    list-style-type:none;
+    margin:0;
+    float:left;
+    text-align:center;
+}
+#menu li a{
+    display:block;
+    padding:35px;
+    color:white;
+    background-color:black;
+    text-decoration:none;
+}
+hr{
+    width:50%;
+}
+
+#profile{
+    background-color:lightgray;
+    height:850px;
+    padding-top:5px;
+    text-align:center;
+    font-size:30px;
+}
+.t{
+    height:200px;
+    margin-left:0;
+    margin-right:0;
+    text-align:center;
+}
+.l{
+    height:550px;
+    width:450px;
+    margin-top:10px;
+    float:left;
+    margin-left:50px;
+    
+}
+.c{
+    height:300px;
+    width:300px;
+    background-image:url("../Images/t-swift.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    float:right;
+    margin-top:10px;
+    margin-right:80px;
+}
+
+.r{
+    height:550px;
+    width:300px;
+    float:right;
+    margin-top:10px;
+    margin-right:200px;
+}
+#exprience{
+    background-color:gold;
+    height:1150px;
+    padding-top:5px;
+    text-align:left;
+    font-size:30px;
+}
+.b{
+     height:850px;
+     margin-left:180;
+     margin-right:180;
+     text-align:left;
+}
+#ability{
+    background-color:gray;
+    height:2000px;
+    padding-top:5px;
+    text-align:center;
+    font-size:30px;
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #800080;}
+
+#cantact{
+    background-color:rgb(55,56,63);
+    height:450px;
+    padding-top:5px;
+    text-align:center;
+    font-size:30px;
+}
+
 
 /* Style the buttons inside the tab */
 .tab button {  
