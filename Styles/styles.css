@@ -103,11 +103,8 @@ hr{
 .c{
     height:300px;
     width:300px;
-    background-image:url("../Images/t-swift.png");
-    background-repeat:no-repeat;
-    background-position:center;
     float:right;
-    margin-top:10px;
+    margin-top:150px;
     margin-right:80px;
 }
 
