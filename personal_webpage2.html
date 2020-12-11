@@ -1,35 +1,20 @@
 <html>
 <head>
     <link rel="stylesheet" href="Styles/styles.css">
-
+  <script src="myScript.js"></script>
 </head>
 
 <body>
-<!--
-    <div class="header">
-        <img src="Images/pic-elham.png" >
-    </div>
-    
 
-    <div class="tab">
-        <button class="tablinks" onclick="openTab(event, 'Profile')">Profile</button>
-        <button class="tablinks" onclick="openTab(event, 'Exprience')">Exprience</button>
-        <button class="tablinks" onclick="openTab(event, 'Ability')">Ability</button>
-        <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
-
-
-
-    </div>
--->
 <div id="bgimg">
     
     <div id="animpic"><img src="pic-elhamc.PNG"></div>
     <div id="rightmenudiv">
         <ul id="menu">
-            <li><a href="#profile">Profile</a></li>
-            <li><a href="#exprience">Exprience</a></li>
-            <li><a href="#ability">Ability</a></li>
-            <li><a href="#cantact">Cantact</a></li>
+            <li><a href="#profile" onclick="smoothScroll('profile');">Profile</a></li>
+            <li><a href="#exprience"onclick="smoothScroll('exprience');">Exprience</a></li>
+            <li><a href="#ability" onclick="smoothScroll('ability');">Ability</a></li>
+            <li><a href="#cantact" onclick="smoothScroll('cantact');">Cantact</a></li>
         </ul>
     </div>
     
