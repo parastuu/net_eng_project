@@ -7,6 +7,7 @@
 #titlediv{
     width:100%;
     height:829px;
+
 }
 #internaltitlediv{
     width:37%;
@@ -26,18 +27,16 @@ hr{
 @font-face {
         font-family:"DSfont";
         src: url(../fonts/DSfont.otf);
-        
 }
-
 
 #persondiv{
     position:absolute;
     left:0;
     width:100%;
-    height:2000px;
+    height:1300px;
     background-image:url("../images/vichy.png");
 }
-#divHeader{
+#headerdiv{
     width:calc(100% - 80px);
     height:150px;
     background-color:white;
@@ -47,62 +46,38 @@ hr{
     font-family:"DSfont";
     font-size:600%;
 }
-#parastoo{
+
+.developer{
     width:670px;
     height:640px;
-    background-color:white;
-    margin-left:40;
     margin-top:20px;
+}
+#parastoo{
+    margin-left:40;
     float:left;
 }
 #elham{
-    width:670px;
-    height:640px;
-    background-color:white;
     margin-right:40px;
-    margin-top:20px;
     float:right;
 }
-#parastooPictureDiv{
-    margin-top:15px;
-    width:670;
-    height:300;
-    /*background-color:blue;*/
-    background-image:url("../Images/pic-parastooc.png");
-    background-repeat:no-repeat;
-    background-position:center;
-    
+
+img{
+    margin-top:25px;
+    margin-left:160px;
 }
-#elhamPictureDiv{
-    margin-top:15px;
-    width:670;
-    height:300;
-    /*background-color:blue;*/
-    background-image:url("../Images/pic-elhamc.png");
-    background-repeat:no-repeat;
-    background-position:center;
-}
-#parstooInfoDiv{
+
+
+.infodiv{
     width:600;
     height:260px;
-    background-color:red;
+    background-color:white;
     margin-top:20;
-    margin-left:35px;
     text-align:center;
-    font-family:"DSfont";
+    font-family:"arial";
     font-size:200%;
-}
-#elhamInfoDiv{
-    width:600;
-    height:260px;
-    background-color:red;
-    margin-top:20;
     margin-left:35px;
-    text-align:center;
-    font-family:"DSfont";
-    font-size:200%;
-    
 }
+/*
 #footer{
     width:calc(100% - 80px);
     height:150px;
@@ -113,3 +88,4 @@ hr{
     font-family:"DSfont";
     font-size:600%;
 }
+*/

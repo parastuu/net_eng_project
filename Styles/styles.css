@@ -1,14 +1,11 @@
 @keyframes animation {
-	0%   {left:0px; top:0px;}
-	25%  {left:300px; top:50px;}
-	50% {left:300px; top:0px;}
-	75% {left:300px; top:50px;}
-	100% {left:0px; top:0px;}
-	}
+    0%   {left:0px; top:0px;}
+    25%  {left:300px; top:50px;}
+    50% {left:300px; top:0px;}
+    75% {left:300px; top:50px;}
+    100% {left:0px; top:0px;}
+    }
 
-img {
-    border-radius:  50%;
-}
 .header {
   position: relative;
   animation-name: animation;
@@ -53,11 +50,10 @@ body {
     height:1500px;
 }
 #animpic{
-    height:300;
-    background-image:url("../Images/pic-parastooc.png");
+    height:350;
     background-repeat:no-repeat;
-    padding-top:50px;
-    background-position:center;
+    padding-top:30px;
+    padding-left:560px;
 }
 #rightmenudiv{
     margin-top:0px;
@@ -171,7 +167,7 @@ hr{
 
 
 /* Style the buttons inside the tab */
-.tab button {  
+.tab button {
 background-color: inherit;
 padding: 60px 60px 6px 32px;
 text-decoration: none;
@@ -211,3 +207,4 @@ transition: 0.3s;
     from {opacity: 0;}
     to {opacity: 1;}
 }
+
