@@ -1,35 +1,20 @@
 <html>
 <head>
     <link rel="stylesheet" href="Styles/styles.css">
-
+ <script src="myScript.js"></script> 
 </head>
 
 <body>
-<!--
-    <div class="header">
-        <img src="Images/pic-elham.png" >
-    </div>
-    
 
-    <div class="tab">
-        <button class="tablinks" onclick="openTab(event, 'Profile')">Profile</button>
-        <button class="tablinks" onclick="openTab(event, 'Exprience')">Exprience</button>
-        <button class="tablinks" onclick="openTab(event, 'Ability')">Ability</button>
-        <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
-
-
-
-    </div>
--->
 <div id="bgimg">
     
     <div id="animpic"><img src="pic-parastooc.PNG"></div>
     <div id="rightmenudiv">
         <ul id="menu">
-            <li><a href="#profile">Profile</a></li>
-            <li><a href="#exprience">Exprience</a></li>
-            <li><a href="#ability">Ability</a></li>
-            <li><a href="#cantact">Cantact</a></li>
+            <li><a href="#profile" onclick="smoothScroll('profile');">Profile</a></li>
+            <li><a href="#exprience" onclick="smoothScroll('exprience');">Exprience</a></li>
+            <li><a href="#ability" onclick="smoothScroll('ability');">Ability</a></li>
+            <li><a href="#cantact" onclick="smoothScroll('cantact');">Cantact</a></li>
         </ul>
     </div>
     
@@ -156,40 +141,6 @@
 
     </div>
 </div>
-<!--
-    <div id="Profile" class="tabcontent">
-        <h3>Profile</h3>
-    </div>
 
-    <div id="Exprience" class="tabcontent">
-        <h3>Exprience</h3>
-        <p>I have thought English about 6 years. </p>
-    </div>
-
-    
-    <div id="Ability" class="tabcontent"  >
-    </div>
-    
-    
-    
-    <script>
-        function openTab(evt, tabName) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-        }
-            
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        
-        document.getElementById(tabName).style.display = "block";
-        evt.currentTarget.className += " active";
-        }
-    
-        </script>
--->
 </body>
 </html> 
