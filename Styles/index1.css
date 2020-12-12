@@ -1,4 +1,4 @@
- body{
+body{
     background-image:url("../images/fxd.png");
     background-repeat:no-repeat;
     background-attachment:fixed;
@@ -12,7 +12,6 @@
 #internaltitlediv{
     width:37%;
     height:50%;
-    /*background-color:red;*/
     margin-bottom:310px;
     padding-top:280px;
     margin-left:25px;
@@ -34,12 +33,13 @@ hr{
     left:0;
     width:100%;
     height:1300px;
-    background-image:url("../images/vichy.png");
+    background-image:url("../images/images.jpeg");
+    
 }
 #headerdiv{
     width:calc(100% - 80px);
     height:150px;
-    background-color:white;
+    background-image:url("../images/back-header1.png");
     margin-left:40px;
     margin-top:30px;
     text-align:center;
@@ -62,20 +62,44 @@ hr{
 }
 
 img{
-    margin-top:25px;
-    margin-left:160px;
+    margin-top:20px;
+    margin-left:200px;
+    margin-right:200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 
 .infodiv{
     width:600;
     height:260px;
-    background-color:white;
     margin-top:20;
     text-align:center;
     font-family:"arial";
-    font-size:200%;
+    font-size:180%;
     margin-left:35px;
+}
+.button {
+  background-image:url("../images/back-header1.png");
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  
 }
 /*
 #footer{
