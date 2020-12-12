@@ -32,7 +32,7 @@ hr{
     position:absolute;
     left:0;
     width:100%;
-    height:1300px;
+    height:1200px;
     background-image:url("../images/images.jpeg");
     
 }
@@ -82,6 +82,7 @@ img:hover {
     font-family:"arial";
     font-size:180%;
     margin-left:35px;
+    color:rgb(37, 33, 81)
 }
 .button {
   background-image:url("../images/back-header1.png");
@@ -101,15 +102,17 @@ img:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
   
 }
-/*
+
 #footer{
-    width:calc(100% - 80px);
-    height:150px;
-    background-color:green;
-    margin-left:40px;
-    margin-top:30px;
+    width:100%-100px ;
+    height:180px ;
+    margin-top:810px;
+    padding:15px;
+    padding-left:100px;
+    padding-right:100px;
+    background-image:url("../images/back-header2.png");
     text-align:center;
     font-family:"DSfont";
-    font-size:600%;
+    font-size:90%;
+    color:white;
 }
-*/

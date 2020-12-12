@@ -1,4 +1,4 @@
-﻿function currentYPosition() {
+function currentYPosition() {
     if (self.pageYOffset) return self.pageYOffset;
 
 }
