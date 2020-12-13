@@ -75,13 +75,13 @@ ul {
 }
 #menu li a{
     display:block;
-    padding:35px;
+    padding:25px;
     color:white;
     background-color:black;
     text-decoration:none;
 }
 #menu li a:hover{
-background-color:gray;
+    background-color:gray;
 }
 hr{
     width:60%;
