@@ -5,6 +5,10 @@
     75% {left:300px; top:50px;}
     100% {left:0px; top:0px;}
     }
+@font-face {
+        font-family:"SemiBold";
+        src: url(../fonts/SemiBold.otf);
+}
 
 .header {
   position: relative;
@@ -29,7 +33,7 @@
 }
 
 body {
-    font-family: Arial;
+    font-family:"SemiBold";
 }
 
 /* Style the tab */
@@ -46,7 +50,7 @@ body {
 }
 
 #bgimg{
-    background-image:url("../Images/vichy.png");
+    background-image:url("../Images/images.jpeg");
     height:1500px;
 }
 #animpic{
@@ -57,6 +61,7 @@ body {
 }
 #rightmenudiv{
     margin-top:0px;
+    margin-bottom:130px;
     float:right;
     right:35;
     position:fixed;
@@ -79,15 +84,22 @@ ul {
 background-color:gray;
 }
 hr{
-    width:50%;
+    width:60%;
+}
+h1{
+    color:darkcyan;
+    font-size:55px;
+}
+h2{
+    color:darkcyan;
 }
 
 #profile{
-    background-color:lightgray;
+    background-color:rgb(241,239,223);
     height:850px;
-    padding-top:5px;
+    padding-top:55px;
     text-align:center;
-    font-size:30px;
+    font-size:25px;
 }
 .t{
     height:200px;
@@ -97,10 +109,12 @@ hr{
 }
 .l{
     height:550px;
-    width:450px;
+    width:250px;
     margin-top:10px;
     float:left;
-    margin-left:50px;
+    margin-left:260px;
+    text-align:left;
+    font-size:20px;
     
 }
 .c{
@@ -116,14 +130,18 @@ hr{
     width:300px;
     float:right;
     margin-top:10px;
-    margin-right:200px;
+    margin-right:190px;
+    font-size:20px;
 }
 #exprience{
-    background-color:gold;
+    background-color:white;
     height:1150px;
     padding-top:5px;
     text-align:left;
     font-size:30px;
+}
+dh{
+    color:darkcyan;
 }
 .b{
      height:850px;
@@ -132,7 +150,7 @@ hr{
      text-align:left;
 }
 #ability{
-    background-color:gray;
+    background-color:rgb(241,239,223);
     height:2000px;
     padding-top:5px;
     text-align:center;
@@ -149,7 +167,7 @@ hr{
   text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: white;
+  color:rgb(241,239,223);
 }
 
 .html {width: 90%; background-color: #4CAF50;}
@@ -158,12 +176,24 @@ hr{
 .php {width: 60%; background-color: #800080;}
 
 #cantact{
-    background-color:rgb(55,56,63);
+    background-color:rgb(69,68,68);
     height:450px;
     padding-top:5px;
     text-align:center;
-    font-size:30px;
+    font-size:20px;
+    color:white;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Style the buttons inside the tab */
