@@ -54,14 +54,13 @@ body {
     height:1500px;
 }
 #picture{
-
-    border: 2px solid black;
+    border: 7px solid rgba(0, 139, 139, 0.3);
     border-radius: 50%;
 }
 #animpic{
     height:350;
     background-repeat:no-repeat;
-    padding-top:30px;
+    padding-top:20px;
     padding-left:560px;
 
 }
