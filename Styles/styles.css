@@ -53,11 +53,17 @@ body {
     background-image:url("../Images/images.jpeg");
     height:1500px;
 }
+#picture{
+
+    border: 2px solid black;
+    border-radius: 50%;
+}
 #animpic{
     height:350;
     background-repeat:no-repeat;
     padding-top:30px;
     padding-left:560px;
+
 }
 #rightmenudiv{
     margin-top:0px;
